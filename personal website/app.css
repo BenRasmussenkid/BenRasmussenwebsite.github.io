@@ -1,21 +1,20 @@
 *{
     padding: 0;
-    margin: 0;
+    margin:0 ;
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(assets/fire-flame-heat-hot-216634.jpg);
-    overflow: auto;
-}
+.body{
+     background-color:rgb(187, 131, 94);
+ }
 
-.nav-bar{
-    background-color: rgb(255, 255, 255);
+ .nav-bar{
+    background-color: rgb(100, 100, 100);
     align-items: center;
     display: flex;
     flex-direction: row;
     flex-flow: row;
-    padding-right: 0px;
+    padding-left: 40%;
 }
 
 .nav-items{
@@ -38,13 +37,14 @@ a:link {
   }
 
   a:hover {
-      background-color:white;
-    text-decoration: underline;
-  }
+    background-color:white;
+  text-decoration: underline;
+}
 
 .logo{
-    font-size: medium;
+    font-size: large;
 }
+
 
 .spacer{
     padding: 10px;
@@ -72,7 +72,7 @@ a:link {
 }
 
 h1:hover {
-    background-color: rgb(235, 184, 137);
+    background-color: rgb(137, 224, 235);
 }
 
 .my-bio{
@@ -88,13 +88,25 @@ h1:hover {
 .base-photo{
     max-width: 650px;
     max-height: 650px;
-    border-bottom: 15px solid white;
+    border-bottom: 15px solid rgb(156, 156, 156);
+}
+
+.base-photo-two{
+    max-width: 650px;
+    max-height: 650px;
+    border-bottom: 15px solid rgb(156, 156, 156);
+}
+
+.base-photo-two:hover {
+    padding: 60px;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
 }
 
 .base-photo:hover {
-    align-self: center;
-    padding-left: 5%;
+    padding: 60px;
     border-right: 5px solid white;
+    border-left: 5px solid white;
 }
 .projects{
     display: flex;
@@ -105,7 +117,7 @@ h1:hover {
 
 .projects:hover{
     padding: 15px;
-    background-color: white;
+    background-color: rgb(205, 255, 243);
     border-bottom: 5px solid black;
     border-top: 5px solid black;
 }
@@ -130,15 +142,5 @@ h1:hover {
 .Instagram-btn{
     border: none;
     background: none;
+    background-color: orange;
 }
-
-.base-photo-two{
-    max-width: 650px;
-    max-height: 650px;
-    border-bottom: 15px solid rgb(255, 255, 255);
-}
-
-.base-photo-two:hover {
-    padding: 90px;
-}
-
